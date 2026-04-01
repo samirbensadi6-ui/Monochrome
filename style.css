@@ -1,4 +1,39 @@
-.header{
-    color: black;
+/* hero banner c'est la premiere image*/
+.section-hero { 
+    background-image: url("asset/bg-image-hero.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh; /* view height que dans les hero banners (100% de la hauteur de l'écran*/ 
 }
 
+.white{
+    color: white;
+    text-align: left;
+}
+
+.bold {
+    font-weight: 200;
+}
+
+.bold-epais{
+    font-weight:extrabold 800;
+}
+
+.section-p1{
+  background-image: url(asset/bg-image-2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+   
+}
+
+footer {
+    background-color: #353434;
+    font-weight: bolder;
+
+    
+}
+
+.logo-white{
+    text-align: center;
+    font-weight: 90;
+}
