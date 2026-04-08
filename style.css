@@ -1,4 +1,10 @@
 /* hero banner c'est la premiere image*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: rubik, sans-serif;
+}
 .section-hero { 
     background-image: url("asset/bg-image-hero.png");
     background-size: cover;
@@ -6,24 +12,84 @@
     height: 100vh; /* view height que dans les hero banners (100% de la hauteur de l'écran*/ 
 }
 
+.container-1200 {
+    container: 1200px;;
+    width: 100%;
+}
+.bg-image2 {
+   background-image: url("asset/bg-image-2.png");
+}
+.p-40 {
+    padding: 40px;
+}
+
+.w-30{
+    width: 30%;
+}
+
+.mt-64{
+    margin-top: 64px;
+}
+.flex {
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.block {
+    text-align: center;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+.align-center {
+    align-items: center;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.gap-48{
+    gap: 48px;
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+}
+
 .white{
     color: white;
     text-align: left;
+}
+
+/* taille */
+
+.w-40 {
+    width: 40%;
 }
 
 .bold {
     font-weight: 200;
 }
 
-.bold-epais{
-    font-weight:extrabold 800;
+.black {
+    color: black;
 }
 
-.section-p1{
-  background-image: url(asset/bg-image-2.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-   
+
+.bold-epais{
+    font-weight:extrabold 800;
 }
 
 footer {
@@ -36,11 +102,24 @@ footer {
 .logo-white{
     text-align: center;
     font-weight: 90;
+    padding-top: 30px;
 }
 
-.nav{
-    text-align: right;
-}
 .section-p2{
+    font-size: 14px;
+    font-style: regular ;
+}
+
+.titrelumiere {
     text-align: center;
 }
+
+/* les boutons */
+
+.btn-image2 {
+    border: solid;
+    padding: 10px 40px;
+    background-color: #353434;
+    color: white;
+}
+
