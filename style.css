@@ -10,6 +10,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh; /* view height que dans les hero banners (100% de la hauteur de l'écran*/ 
+    width: 100%;
 }
 
 .container-1200 {
@@ -18,7 +19,17 @@
 }
 .bg-image2 {
    background-image: url("asset/bg-image-2.png");
+   background-size: cover;
+   background-repeat: no repeat;
+   width: 100%;
+   background-color: #000000B2;
+   height: 385px;
 }
+
+.flex-end {
+    justify-content: flex-end;
+}
+
 .p-40 {
     padding: 40px;
 }
@@ -30,9 +41,39 @@
 .mt-64{
     margin-top: 64px;
 }
-.flex {
-    flex-wrap: wrap;
-    display: flex;
+
+.mt-35 {
+    margin-top: 35px;
+}
+
+.mb-35 {
+    margin-bottom: 35px;
+}
+
+.mb-15 {
+    margin-bottom: 15px;
+}
+
+.mb-30 {
+    margin-bottom: 25px;
+}
+
+
+
+.pt-50{
+    padding-top: 50px;
+}
+
+.pl-80 {
+    padding-left: 80px;
+}
+
+.pb-120 {
+    padding-bottom: 120px;
+}
+
+.inline-block {
+    display: inline-block;
 }
 
 .space-between {
@@ -44,13 +85,10 @@
     flex-wrap: wrap;
 }
 
-.block {
-    text-align: center;
+.justify-start {
+   justify-content: flex-start;
 }
 
-.space-between {
-    justify-content: space-between;
-}
 .align-center {
     align-items: center;
 }
@@ -95,6 +133,9 @@ a {
 footer {
     background-color: #353434;
     font-weight: bolder;
+    width: 1280px;
+    height: 183px;
+    top: 2606px;
 
     
 }
@@ -110,7 +151,7 @@ footer {
     font-style: regular ;
 }
 
-.titrelumiere {
+.text-center{
     text-align: center;
 }
 
@@ -119,7 +160,43 @@ footer {
 .btn-image2 {
     border: solid;
     padding: 10px 40px;
+    border-radius: 4px;
     background-color: #353434;
     color: white;
+    width: 130px;
+    height: 31px;
 }
+
+.btn-page1 {
+    border: solid;
+    background-color: white;
+    padding: 7px 20px 7px 20px;
+    border-radius: 4px;
+    width: 134px;
+    height: 31px;
+    color: black;
+    text-decoration: none;
+
+}
+
+.container {
+    container: 1200;
+    max-width: 1200;
+    width: 100%;
+    margin-left:auto ;
+    margin-right:auto;
+}
+
+.w-45 {
+    width: 45%;
+}
+
+/*les Titres */
+
+.h2 {
+    color: white;
+    left: 63px;
+}
+
+
 
